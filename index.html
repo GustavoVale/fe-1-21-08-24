@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+   <title>Conceitos de aula</title>
+   <link rel="icon" type="image/x-icon" href="img/html-logo.png">
+   <meta charset="utf-8">
+ </head>
+ <body>
+   <!-- meu comentário -->
+   <h1>Título</h1>
+   <h2>Subitulo</h2>
+   <h6>Titulo 6</h6>
+   <p> parágrafo </p>
+   <p> parágrafo com <br> quebra</p>
+   
+   <h1>Listas</h1>
+
+   <h2>Ordenadas</h2>
+
+   <ol>
+     <li> item 1 </li>
+	 <li> item 2 </li>
+   </ol>
+
+   <h2>Descrição</h2>
+
+   <dl>
+     <dt> item </dt>
+	 <dd> descrição </dd>
+   </dl>
+   
+   <ul>
+     <li> item 1 </li>
+	 <li> item 2 </li>
+   </ul>
+   
+   <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+   <map name="workmap">
+     <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.html">
+     <area shape="rect" coords="290,172,333,250" alt="Phone" href="computer.html">
+     <area shape="circle" coords="337,300,44" alt="Coffee" href="computer.html">
+   </map>
+
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.637715471554!2d-44.996946325884345!3d-21.24621008063948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9ffd85e812dcbf%3A0x9fe3f1dc59da8a28!2sUniversity%20Center%20of%20Lavras!5e0!3m2!1sen!2sbr!4v1724285791051!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+   <iframe id="mapa" width="560" height="315" src="https://www.youtube.com/embed/H8rfTbEfbBw?si=193sYs7DWqvrSv_D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   
+   <p><a href="computer.html">CLIQUE AQUI PARA IR PARA A PÁGINA COMPUTER</a></p>
+   
+   <form action="computer.html" method="POST">
+	  <fieldset>
+        <legend> Login
+	    Nome: <br>
+	    <input type="text" name="nome"><br>
+	    Senha:<br>
+	    <input type="password" name="senha"><br>
+	    <input type="submit" name="btn-enviar" value="enviar">
+	  </fieldset>
+   </form>
+   
+   <form>
+     Seus veículos: <br><br>
+	 <select name="veiculo">
+	   <optgroup label="Carros">
+  	     <option value="camaro"> Camaro </option>
+		 <option value="clio"> Clio </option>
+       </optgroup>
+	   
+	   <optgroup label="Motos">
+        <option value="gs"> GS 1200 </option>
+		<option value="cg"> CG 150 </option>
+       </optgroup>
+     </select>
+
+   </form>
+ </body>
+</html>
